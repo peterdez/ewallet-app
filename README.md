@@ -9,4 +9,4 @@ minimum balance and monthly interest rate. Wallets are able to send and receive 
 - api/wallet/show.php?id=# - Gets a wallet’s detail including its owner, type and the transaction history of that wallet.
 - api/query_all.php - Gets the count of users, count of wallets, total wallet balance, total volume of transactions.
 
-*** SQL file included for database setup ***
+***SQL file included for database setup***
