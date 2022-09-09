@@ -1,6 +1,6 @@
 # Ewallet App
 Application in which users can have multiple wallets with each wallet type having its own name, 
-minimum balance and monthly interest rate. Wallets should be able to send and receive money from other wallets.
+minimum balance and monthly interest rate. Wallets are able to send and receive money from other wallets.
 
 ### Endpoints and actions:
 - api/user/index.php - Gets all users in the system
