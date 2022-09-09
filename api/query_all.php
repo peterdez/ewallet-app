@@ -20,7 +20,7 @@ if ($conn->connect_error) {
 $sql = "SELECT
   (SELECT COUNT(*) FROM users) as usersTableCount, 
   (SELECT COUNT(*) FROM wallets) as walletstableCount,
-  (SELECT COUNT(*) FROM transactions) as transactiosnsTableCount,
+  (SELECT COUNT(*) FROM transactions) as transactionsTableCount,
   (SELECT SUM(balance) FROM wallets) as totalWalletBalance";
 //$sql = "SELECT * FROM users WHERE id=?";
 $stmt = $conn->prepare($sql); 
