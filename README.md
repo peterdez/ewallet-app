@@ -1,5 +1,5 @@
-# Ewallet App
-Application in which users can have multiple wallets with each wallet type having its own name, 
+# E-Wallet App
+E-Wallet Application built with PHP in which users can have multiple wallets with each wallet type having its own name, 
 minimum balance and monthly interest rate. Wallets are able to send and receive money from other wallets.
 
 ### Endpoints and actions:
