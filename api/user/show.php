@@ -21,7 +21,7 @@ $user = new User($db);
 $user->id = isset($_GET['id']) ? $_GET['id'] : die();
   
 // read the details of user to be edited
-$user->readOne();
+$user->show();
   
 if($user->name!=null){
     // create array

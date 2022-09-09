@@ -18,7 +18,7 @@ class User{
     }
 
     // read wallets
-    function read(){
+    function index(){
     
         // select all query
 
@@ -34,7 +34,7 @@ class User{
     }
 
     // used when filling up the update wallet form
-    function readOne(){
+    function show(){
     
         // query to read single record
         /*$query = "SELECT

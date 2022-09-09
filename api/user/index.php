@@ -15,7 +15,7 @@ $db = $database->getConnection();
 $user = new User($db);
   
 // query users
-$stmt = $user->read();
+$stmt = $user->index();
 $num = $stmt->rowCount();
   
 // check if more than 0 record found
